@@ -1,0 +1,9 @@
+# Learning-Phyton
+encrypt = input('Enter text to encrypt : ')
+encrypt = encrypt.lower().replace(" ", "")
+for i in encrypt:
+    print(chr(ord(i) + 3))
+decrypt = input('Enter text to decrypt : ')
+decrypt = decrypt.lower().replace(" ", "")
+for i in decrypt:
+    print(chr(ord(i) - 3))
